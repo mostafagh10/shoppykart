@@ -1,0 +1,291 @@
+*{
+  scroll-behavior: smooth;
+}
+nav{
+  background-color: white;
+  position: sticky !important;
+  top: 0;
+  width: 100%;
+  z-index: 1111;
+}
+.navbar-nav li{
+  text-transform: capitalize;
+}
+.navbar-brand{
+  font-weight: bold;
+  color: red !important;
+}
+.navbar-brand span{
+  color: black;
+}
+.nav-link{
+  color: black !important;
+  transition: all 0.3s ease-in-out;
+}
+.nav-link:hover{
+  color: rgba(255, 0, 0, 0.61) !important;
+}
+.form-inline button{
+  margin-right: 20px;
+  padding: 9px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+#moonicon{
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/*  header  */
+.header{
+  height: 600px;
+  width: 100%;
+  position: relative;
+}
+.headerone{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.headertwo{
+  height: 100%;
+  padding-top: 200px;
+  text-align: center;
+  text-transform: capitalize;
+  z-index: 9;
+  background-color: rgb(32, 32, 32);
+  opacity: 0.88;
+  font-weight: bolder;
+  letter-spacing: 3px;
+  color: white;
+}
+.headertwo h3{
+  color: rgba(255, 0, 0, 0.61) ;
+}
+.headertwo button{
+  padding: 13px;
+  text-transform: capitalize;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 767px) {
+  .headertwo h3 , .headertwo h5 {
+    font-size: 20px;
+  }
+  .headertwo h1{
+    font-size: 25px;
+  }
+  .headertwo button{
+    padding: 9px;
+    font-size: 15px;
+    margin-top: 20px;
+  }
+}
+
+/* first body */
+.firstbodytitle{
+  padding: 25px;
+  background-color: rgb(206, 206, 206);
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+@media screen and (max-width: 767px) {
+  .firstbodytitle h3{
+    font-size: 15px;
+  }
+}
+
+
+/* second body  */
+.secondbody{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.secondbodysyntax{
+  height: 300px;
+  width: 100%;
+  position: relative;
+}
+.secondbodyimage{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.secondbodycover{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+  opacity: 0.8;
+  background-color: rgb(32, 32, 32);
+  color: white;
+  padding: 30px;
+  text-transform: capitalize;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 4px;
+}
+.secondbodycover button{
+  background: none;
+  color: white;
+  padding: 15px;
+  font-size: 15px;
+  letter-spacing: 3px;
+  text-transform: capitalize;
+  border: 1px solid white;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+.secondbodycover button:hover{
+  background-color: rgba(255, 0, 0, 0.61);
+}
+
+/* shop with us */
+.shopwithus{
+  text-transform: capitalize;
+}
+.shopwithus h7{
+  color: gray;
+}
+.cardtext{
+  margin-top: 30px;
+  text-align: center;
+}
+.cardtext h5{
+  margin-top: 20px;
+}
+.cardtext h7{
+  color:rgba(255, 0, 0, 0.61) ;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 767px) {
+  .cardtext img{
+    width: 70%;
+  }
+}
+
+/* what client say */
+.whatclientsay{
+  margin-top: 50px;
+  height: 500px;
+  width: 100%;
+  position: relative;
+}
+.whatclientsayone{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.whatclientsaytwo{
+  height: 100%;
+  background-color: rgb(32, 32, 32);
+  opacity: 0.85;
+  padding-top: 100px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  text-transform: capitalize;
+  letter-spacing: 3px;
+}
+.whatclientsaytwo .container h7{
+  color:rgba(255, 0, 0, 0.61) ;
+}
+.whatclientsaytwo .container h6{
+  line-height: 20px;
+}
+
+/* get on the list  */
+.getonthelist{
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 40px;
+  width: 70%;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.getonthelist i{
+  color:rgba(255, 0, 0, 0.61) ;
+  font-size: 40px;
+}
+.getonthelist h7 span{
+  color:rgba(255, 0, 0, 0.61) ;
+}
+.getonthelist h7{
+  color:rgba(63, 62, 62, 0.61) ;
+}
+
+@media screen and (max-width: 767px) {
+  .getonthelist input{
+    width: 70% !important;
+  }
+}
+
+/* footer   */
+.footer{
+  margin-top: 40px;
+  color: white;
+  background-color: black;
+  text-transform: capitalize;
+  padding-top: 30px;
+}
+.footerpart{
+  margin-top: 15px;
+}
+.footerpart h11{
+  margin-top: 6px;
+  display: block;
+  color:rgba(207, 202, 202, 0.61) ;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.footerpart h11:hover{
+  color: white;
+}
+.footerpart2 i{
+  font-size: 20px;
+  margin-right: 35px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.footerpart2 i:hover{
+  color:rgba(214, 13, 13, 0.952) ;
+}
+@media screen and (max-width: 767px) {
+  .footer h3{
+    font-size: 20px;
+  }
+  .footerpart img{
+    width: 80%;
+  }
+}
+.darkmode{
+  color: white !important;
+}
+.darkmode2{
+  background-color: white !important;
+}
+.darkmode3{
+  background-color: black;
+  color: white;
+}
