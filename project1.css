@@ -237,7 +237,9 @@ nav{
 
 @media screen and (max-width: 767px) {
   .getonthelist input{
-    width: 70% !important;
+    width: 100% !important;
+    display: inline-block;
+    margin-bottom: 10px;
   }
 }
 
